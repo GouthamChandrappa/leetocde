@@ -10,8 +10,9 @@ class Solution:
         result = []
         for char in s:
             if char in vowels:
-                result.append(vowel_list.pop())  # Replace with the last vowel in the reversed list
+                result.append(vowel_list.pop()) 
             else:
+                # Keep consonants unchanged
                 result.append(char)  # Keep consonants unchanged
         
         return ''.join(result)
