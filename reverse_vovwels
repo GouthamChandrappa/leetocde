@@ -13,7 +13,7 @@ class Solution:
                 result.append(vowel_list.pop()) 
             else:
                 # Keep consonants unchanged
-                result.append(char)  # Keep consonants unchanged
+                result.append(char)  
         
         return ''.join(result)
     

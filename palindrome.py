@@ -1,5 +1,5 @@
 class solution:
-    def palindrome(self, s:str) -> print("The string is palindrome" : bool):
+    def palindrome(self, s:str) -> bool:
         lower = s.lower()
         combined_string = ''.join(char for char in lower if  char.isalnum())
         print(f"The combined and cleaned string is:{combined_string}")
